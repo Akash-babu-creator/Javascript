@@ -28,3 +28,8 @@ const myFunction = function(){
 console.log(typeof myFunction)
 console.log(typeof heros)
 console.log(typeof myObj)
+
+
+// *********************************************
+
+// Stack(Primitive), Heap(Non-Primitive)
