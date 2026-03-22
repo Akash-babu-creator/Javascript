@@ -28,6 +28,7 @@ const myFunction = function(){
 console.log(typeof myFunction)
 console.log(typeof heros)
 console.log(typeof myObj)
+myFunction()
 
 
 // *********************************************
