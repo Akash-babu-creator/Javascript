@@ -42,14 +42,50 @@ const users =[
         email : "a@mail.com"
     }
 ]
-console.log(users[0].email)
+// console.log(users[0].email)
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser))     // gives the list of keys
+// console.log(Object.keys(tinderUser))     // gives the list of keys
 console.log(Object.values(tinderUser))     // gives the list of values
 
-console.log(Object.entries(tinderUser))     
+// console.log(Object.entries(tinderUser))     
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+
+
+
+
+
+
+const course = {
+    course: "js",
+    price: "999",
+    courseInstructor: "Htesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+const {courseInstructor: instructor} = course
+
+
+console.log(courseInstructor);
+console.log(instructor);
+
+             // APIs
+
+// {
+//     "name"  : "hitesh",
+//     "coursename" : "js",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
