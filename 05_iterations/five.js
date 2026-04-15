@@ -32,7 +32,7 @@ mycoding = [
     },
     {
         languageName : 'python',
-        languageFileName: 'oy'
+        languageFileName: 'py'
     },
     {
         languageName : 'java',
